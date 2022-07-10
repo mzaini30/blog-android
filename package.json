@@ -19,7 +19,6 @@
     "@vitejs/plugin-vue": "^2.3.1",
     "@vueuse/head": "^0.7.6",
     "happy-dom": "^5.3.1",
-    "kumpulan-tools": "^1.0.0",
     "markdown-it": "^13.0.1",
     "markdown-it-prism": "^2.2.4",
     "presite": "^2.1.2",
