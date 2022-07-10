@@ -9,8 +9,9 @@ import yaml from "vite-plugin-yaml2";
 import apply from "@unocss/transformer-directives";
 import generateSitemap from "vite-plugin-pages-sitemap";
 import Prism from "markdown-it-prism";
+import { presetUno, presetTypography } from "unocss";
 
-const hostname = "http://localhost:3000/";
+const hostname = "https://android.zenia.my.id/";
 
 // https://vitejs.dev/config/
 export default defineConfig({
@@ -18,6 +19,7 @@ export default defineConfig({
     yaml(),
     unocss({
       transformers: [apply()],
+      presets: [presetUno(), presetTypography()],
     }),
     legacy(),
     vue({
