@@ -43,3 +43,9 @@ onMounted(() => {
     </ul>
   </div>
 </template>
+
+<style>
+.tulisan img {
+	@apply rounded overflow-hidden border border-slate-200 block mx-auto
+}
+</style>
